@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--=============== SWIPER CSS ===============--> 
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============--> 
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <title>MagangSMK</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <img src="assets/img/mgblue.png" alt="" class="nav__logo-img">
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#beranda" class="nav__link active-link">Beranda</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">Tentang Kami</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#infomagang" class="nav__link">Magang</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#new" class="nav__link">Baru</a>
+                        </li>
+
+                        <a href="#" class="button button--ghost">Login</a>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x'></i>
+                    </div>
+
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+
+            </nav>
+        </header>
+
+        <main>
+            <!--============== Beranda ==============-->
+            <section class="beranda container" id="beranda">
+                <div class="swiper home-swiper">
+                    <div class="swiper-wrapper">
+                        <!-- Beranda slider 1 -->
+                        <section class="swiper-slide">
+                            <div class="beranda__konten grid">
+                                <div class="beranda__grup">
+                                    <img src="assets/img/students_.png" class="beranda__img">
+                                    <div class="beranda__indicator"></div>
+                                </div>
+
+                                <div class="beranda__data">
+                                    <h1 class="beranda__title">Daftar <br> sebagai <br> Siswa</h1>
+                                    <p class="beranda__description">Kami akan membantu Siswa/Siswi SMK untuk mendapatkan tempat magang yang sesuai dengan
+                                        kejuruannya atau bidangnya.
+                                    </p>
+
+                                    <div class="beranda__buttons">
+                                        <a href="#" class="button">Daftar Siswa</a>
+                                        <a href="#" class="button--link button--flex">Geser <i class='bx bx-right-arrow-alt button__icon'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- Beranda slider 2 -->
+                        <section class="swiper-slide">
+                            <div class="beranda__konten grid">
+                                <div class="beranda__grup">
+                                    <img src="assets/img/industri.png" class="beranda__img">
+                                    <div class="beranda__indicator"></div>
+                                </div>
+
+                                <div class="beranda__data">
+                                    <h1 class="beranda__title">Daftar <br> sebagai <br> Industri</h1>
+                                    <p class="beranda__description">Kami akan membantu Industri atau Perusahaan untuk mendapatkan Siswa/Siswi SMK yang berkompetensi
+                                        di kejuruannya atau bidangnya.
+                                    </p>
+
+                                    <div class="beranda__buttons">
+                                        <a href="#" class="button">Daftar Industri</a>
+                                        <a href="#" class="button--link button--flex">Geser <i class='bx bx-right-arrow-alt button__icon'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
+            <!--============== Benefit ==============-->
+            <section class="section benefit">
+                <h2 class="section__title">Dapatkan Keuntungan <br> Sekarang</h2>
+
+                <div class="benefit__container container grid">
+                    <div class="benefit__data">
+                        <img class="benefit__img" src="assets/img/magang.png" alt="">
+                        <h3 class="benefit__title">Magang</h3>
+                        <p class="benefit__description">Membantu member mencari tempat magang yang sesuai dengan bidang keahlian.</p>
+                    </div>
+
+                    <div class="benefit__data">
+                        <img class="benefit__img" src="assets/img/workshop.png" alt="">
+                        <h3 class="benefit__title">Workshop</h3>
+                        <p class="benefit__description">Workshop gratis selama 1 tahun.</p>
+                    </div>
+
+                    <div class="benefit__data">
+                        <img class="benefit__img" src="assets/img/hemat.png" alt="">
+                        <h3 class="benefit__title">Hemat</h3>
+                        <p class="benefit__description">Hanya dengan membayar Rp 25.000,-/tahun</p>
+                    </div>
+                </div>
+            </section>
+
+            <!--============== Tentang Kami ==============-->
+            <section class="section about" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Tentang Kami</h2>
+                        <p class="about__description">Kami akan membantu para SIswa/Siswi SMK untuk mendapatkan tempat magang yang sesuai dengan Kompetensi mereka pilih.</p>
+                        <a href="#" class="button">Lihat Lainnya</a>
+                    </div>
+
+                    <img src="assets/img/about.png" class="about__img" alt="">
+                </div>
+            </section>
+
+            <!--============== Info Magang ==============-->
+            <section class="section info" id="infomagang">
+                <h2 class="section__title">Info Magang</h2>
+
+                <div class="info__container container grid">
+                    <div class="info__konten">
+                        <img src="assets/img/ic-jabat tangan.png" class="info__img" alt="">
+                        <h3 class="info__title">H-Creative Solo Programmer</h3>
+                        <span class="info__subtitle">Perusahaan kami membuka lowongan...</span>
+                        <button class="button info__button">
+                            <i class='bx bx-right-arrow-alt info__icon'></i>
+                        </button>
+                    </div>
+
+                    <div class="info__konten">
+                        <img src="assets/img/ic-jabat tangan.png" class="info__img" alt="">
+                        <h3 class="info__title">H-Creative Solo Programmer</h3>
+                        <span class="info__subtitle">Perusahaan kami membuka lowongan...</span>
+                        <button class="button info__button">
+                            <i class='bx bx-right-arrow-alt info__icon'></i>
+                        </button>
+                    </div>
+
+                    <div class="info__konten">
+                        <img src="assets/img/ic-jabat tangan.png" class="info__img" alt="">
+                        <h3 class="info__title">H-Creative Solo Programmer</h3>
+                        <span class="info__subtitle">Perusahaan kami membuka lowongan...</span>
+                        <button class="button info__button">
+                            <i class='bx bx-right-arrow-alt info__icon'></i>
+                        </button>
+                    </div>
+
+                    <div class="info__konten">
+                        <img src="assets/img/ic-jabat tangan.png" class="info__img" alt="">
+                        <h3 class="info__title">H-Creative Solo Programmer</h3>
+                        <span class="info__subtitle">Perusahaan kami membuka lowongan...</span>
+                        <button class="button info__button">
+                            <i class='bx bx-right-arrow-alt info__icon'></i>
+                        </button>
+                    </div>
+
+                    <div class="info__konten">
+                        <img src="assets/img/ic-jabat tangan.png" class="info__img" alt="">
+                        <h3 class="info__title">H-Creative Solo Programmer</h3>
+                        <span class="info__subtitle">Perusahaan kami membuka lowongan...</span>
+                        <button class="button info__button">
+                            <i class='bx bx-right-arrow-alt info__icon'></i>
+                        </button>
+                    </div>
+
+                    <div class="info__konten">
+                        <img src="assets/img/ic-jabat tangan.png" class="info__img" alt="">
+                        <h3 class="info__title">H-Creative Solo Programmer</h3>
+                        <span class="info__subtitle">Perusahaan kami membuka lowongan...</span>
+                        <button class="button info__button">
+                            <i class='bx bx-right-arrow-alt info__icon'></i>
+                        </button>
+                    </div>
+
+                </div>
+            </section>
+
+            <!--============== Subscribe ==============-->
+            <section class="section subscribe">
+                <div class="subs__container container grid">
+                    <div class="subs__data">
+                        <h2 class="subs__title">Dapatkan keuntungan <br> jika bergabung dengan kami!</h2>
+                        <a href="#" class="button">Subscribe</a>
+                    </div>
+
+                    <img src="assets/img/subscribe.png" class="subs__img" alt="">
+                </div>
+            </section>
+
+            <!--============== Workshop ==============-->
+            <section class="section workshop__new" id="new">
+                <h2 class="section__title">New</h2>
+
+                <div class="new__container container">
+                    <div class="swiper new-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="new__konten swiper-slide">
+                                <div class="new__tag">New</div>
+                                <img src="assets/img/new.png" class="new__img" alt="">
+                                <h3 class="new__title">Workshop Desain Grafis</h3>
+                                <span class="new__subtitle">Free</span>
+
+                                <div class="new__info">
+                                    <span class="new__pri">kuota terbatas</span>
+                                    <span class="new__disc">hanya untuk member</span>
+                                </div>
+
+                                <button class="button new__button">
+                                    <i class='bx bx-right-arrow-alt new__icon'></i>
+                                </button>
+                            </div>
+
+                            <div class="new__konten swiper-slide">
+                                <div class="new__tag">New</div>
+                                <img src="assets/img/new.png" class="new__img" alt="">
+                                <h3 class="new__title">Workshop Desain Grafis</h3>
+                                <span class="new__subtitle">Free</span>
+
+                                <div class="new__info">
+                                    <span class="new__pri">kuota terbatas</span>
+                                    <span class="new__disc">hanya untuk member</span>
+                                </div>
+
+                                <button class="button new__button">
+                                    <i class='bx bx-right-arrow-alt new__icon'></i>
+                                </button>
+                            </div>
+                            
+                            <div class="new__konten swiper-slide">
+                                <div class="new__tag">New</div>
+                                <img src="assets/img/new.png" class="new__img" alt="">
+                                <h3 class="new__title">Workshop Desain Grafis</h3>
+                                <span class="new__subtitle">Free</span>
+
+                                <div class="new__info">
+                                    <span class="new__pri">kuota terbatas</span>
+                                    <span class="new__disc">hanya untuk member</span>
+                                </div>
+
+                                <button class="button new__button">
+                                    <i class='bx bx-right-arrow-alt new__icon'></i>
+                                </button>
+                            </div>
+                            
+                            <div class="new__konten swiper-slide">
+                                <div class="new__tag">New</div>
+                                <img src="assets/img/new.png" class="new__img" alt="">
+                                <h3 class="new__title">Workshop Desain Grafis</h3>
+                                <span class="new__subtitle">Free</span>
+
+                                <div class="new__info">
+                                    <span class="new__pri">kuota terbatas</span>
+                                    <span class="new__disc">hanya untuk member</span>
+                                </div>
+
+                                <button class="button new__button">
+                                    <i class='bx bx-right-arrow-alt new__icon'></i>
+                                </button>
+                            </div>
+                            
+                            <div class="new__konten swiper-slide">
+                                <div class="new__tag">New</div>
+                                <img src="assets/img/new.png" class="new__img" alt="">
+                                <h3 class="new__title">Workshop Desain Grafis</h3>
+                                <span class="new__subtitle">Free</span>
+
+                                <div class="new__info">
+                                    <span class="new__pri">kuota terbatas</span>
+                                    <span class="new__disc">hanya untuk member</span>
+                                </div>
+
+                                <button class="button new__button">
+                                    <i class='bx bx-right-arrow-alt new__icon'></i>
+                                </button>
+                            </div>
+                            
+                            <div class="new__konten swiper-slide">
+                                <div class="new__tag">New</div>
+                                <img src="assets/img/new.png" class="new__img" alt="">
+                                <h3 class="new__title">Workshop Desain Grafis</h3>
+                                <span class="new__subtitle">Free</span>
+
+                                <div class="new__info">
+                                    <span class="new__pri">kuota terbatas</span>
+                                    <span class="new__disc">hanya untuk member</span>
+                                </div>
+
+                                <button class="button new__button">
+                                    <i class='bx bx-right-arrow-alt new__icon'></i>
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--============== email ==============-->
+            <section class="section letter">
+                <div class="letter__container container">
+                    <h2 class="section__title">Newsletter</h2>
+                    <p class="letter__description">Dapatkan info lebih lanjut dari kami</p>
+
+                    <form action="" class="letter__form">
+                        <input type="text" placeholder="Masukkan Email anda" class="letter__input">
+                        <button class="button">Subscribe</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--============== footer ==============-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__konten">
+                    <a href="#" class="footer__logo">
+                        <img src="assets/img/mgblue.png" alt="" class="footer__logo-img">
+                    </a>
+
+                    <p class="footer__description"> Platform mencari tempat magang yang sesuai dengan bidang keahlian.</p>
+
+                    <div class="footer__sosmed">
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-facebook'></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-instagram-alt' ></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-twitter' ></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer__konten">
+                    <h3 class="footer__title">Alamat</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Jl. Griyan Baru VI No.2 Baturan, Colomadu, Karanganyar, Jawa Tengah</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Kode Pos 57171</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__konten">
+                    <h3 class="footer__title">Tentang Kami</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Tentang Kami</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Subscribe</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">New</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__konten">
+                    <h3 class="footer__title">Kontak</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link"><i class='bx bxs-phone' ></i> 0878-3517-8884 </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link"><i class='bx bxl-gmail' ></i> admin@magangsmk.id </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <span class="footer__copy">&#169; MagangSMK. All rights reserved</span>
+        </footer>
+
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+        </a>
+
+        <script src="assets/js/scrollreveal.min.js"></script>
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
